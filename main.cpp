@@ -65,7 +65,7 @@ int main(){
         runs.push_back(temp);
         i += k;
     }
-    external_sort(runs, buffer);
+    external_sort(runs, b);
     for (i = 0; i < runs[0].size(); i++){
         cout << runs[0][i] << "\n";
     }
